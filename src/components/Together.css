@@ -1,0 +1,185 @@
+.Together{
+    margin-top: 70px;
+}
+.Together h1{
+font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+line-height: 97.5px;
+letter-spacing: 0.03em;
+text-align: center;
+margin-bottom: 15px;
+}
+.Together h2{
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: 0.03em;
+text-align: center;    
+width: 932px;
+margin: auto;
+}
+.Together .father {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+margin-top: 48px;
+}
+.Together .father input{
+padding-left: 26px;
+width: 627px;
+height: 75px;
+border-radius: 14px;
+background: rgba(248, 248, 248, 1);
+border: 1px solid rgba(175, 175, 175, 1) ;
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: 0.03em;
+text-align: start;
+outline: none;
+}
+.Together .father button{
+width: 222px;
+height: 75px;
+top: 262px;
+left: 681px;
+gap: 0px;
+border: none;
+border-radius: 14px;
+opacity: 0px;
+background: rgba(253, 111, 0, 1);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: white;
+outline: none;
+}
+@media screen  and (max-width:950px){
+    .Together h1{
+    font-size: 50px;
+    line-height: 97.5px;
+    margin-bottom: 0px;
+    }
+    .Together h2{
+    font-size: 17px;
+    line-height: 31.5px;    
+    width: 600px;
+    }
+    .Together .father {
+    gap: 20px;
+    margin-top: 35px;
+    }
+    .Together .father input{
+    width: 500px;
+    height: 70px;
+    line-height: 31.5px;
+    }
+    .Together .father button{
+    width: 180px;
+    height: 70px;
+    font-size: 23px;
+    line-height: 36px;
+    }
+}
+@media screen  and (max-width:800px){
+    .Together{
+        margin: 45px 0;
+    }
+}
+@media screen  and (max-width:710px){
+    .Together h1{
+    font-size: 40px;
+    line-height: 80px;
+    }
+    .Together h2{
+    font-size: 15px;
+    line-height: 31.5px;    
+    width: 550px;
+    }
+    .Together .father {
+    gap: 15px;
+    margin-top: 35px;
+    }
+    .Together .father input{
+    width: 380px;
+    height: 70px;
+    font-size: 19px;
+    line-height: 31.5px;
+    }
+    .Together .father button{
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    line-height: 36px;
+    }
+}
+@media screen  and (max-width:565px){
+        .Together .father {
+        gap: 15px;
+        margin-top: 35px;
+        flex-wrap: wrap;
+        }
+        .Together .father input{
+            width: 380px;
+            height: 60px;
+            font-size: 16px;
+        line-height: 31.5px;
+        }
+        .Together .father button{
+            width: 150px;
+            height: 60px;
+        font-size: 19px;
+        line-height: 36px;
+        }
+        .Together h1{
+            font-size: 35px;
+            line-height: 80px;
+            }
+            .Together h2{
+            font-size: 13px;
+            line-height: 30px;    
+            width: 430px;
+            }
+}
+
+@media screen  and (max-width:455px){
+    .Together .father {
+        gap: 15px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        }
+        .Together .father input{
+        width: 280px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 31.5px;
+        }
+        .Together .father button{
+        width: 130px;
+        height: 42px;
+        font-size: 16px;
+        line-height: 36px;
+        }
+        .Together h1{
+        font-size: 22px;
+        line-height: 50px;
+        }
+        .Together h2{
+        font-size: 10px;
+        line-height: 20px;    
+        width: 300px;
+        }
+            
+}
+@media screen  and (max-width:450px){
+    .Together{
+        margin: 25px 0;
+    }
+}

@@ -1,0 +1,55 @@
+.Blogcard{
+width: 310px;
+background: rgba(255, 255, 255, 1);
+}
+.Blogcard img{
+    width: 100%;
+}
+.Blogcard .web_tempates{
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: left;
+color: black;
+
+}
+.Blogcard .Blogcard_descrip{
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+width: 240px;
+color: rgba(118, 118, 118, 1);
+margin: 8px 0;
+}
+.Blogcard .learn_more{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.25px;
+    text-align: left;
+    color: rgba(255, 180, 0, 1);    
+}
+#icon_learn{
+    width: 4.71px;
+    height: 7.07px;
+    font-size: 12px;
+    color:rgba(255, 180, 0, 1);
+    margin-left:8px
+}
+@media screen  and (max-width:400px){
+    .Blogcard{
+        width: 280px;
+        }
+        .Blogcard .web_tempates{
+        font-size: 17px;
+        }
+        .Blogcard .Blogcard_descrip{
+        font-size: 14px;
+        }
+        .Blogcard .learn_more{
+            font-size: 17px; 
+        }
+} 

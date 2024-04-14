@@ -1,0 +1,83 @@
+.Services h1{
+font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+line-height: 98px;
+letter-spacing: 0.03em;
+text-align: center;
+margin: auto;
+}
+.Services h2{
+width: 932px;
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.03em;
+text-align: center;
+margin: auto;
+margin-bottom: 70px;
+}
+@media screen  and (max-width:975px){
+    .Services h1{
+        font-size: 58px;
+        line-height: 90px;
+        }
+        .Services h2{
+        width: 700px;
+        font-size: 17px;
+        }
+}
+@media screen  and (max-width:708px){
+    .Services h1{
+        font-size: 46px;
+        line-height: 77px;
+        }
+        .Services h2{
+        width: 550px;
+        font-size: 14px;
+        line-height: 30px;
+        }
+}
+@media screen  and (max-width:661px){
+        .Services h2{
+        margin-bottom: 50px;
+        }
+        .Services h1{
+            font-size: 37px;
+            line-height: 62px;
+            }
+}
+@media screen  and (max-width:569px){
+    .Services h1{
+        font-size: 27px;
+        line-height: 50px;
+        }
+        .Services h2{
+        width: 400px;
+        font-size: 12px;
+        margin-bottom: 35px;
+        line-height: 25px;
+        }
+}
+@media screen  and (max-width:407px){
+    .Services h1{
+        font-size: 27px;
+        }
+        .Services h2{
+        width: 370px;
+        font-size: 12px;
+        }
+}
+@media screen  and (max-width:371px){
+    .Services h1{
+        font-size: 24px;
+        line-height: 30px;
+        }
+        .Services h2{
+        width: 300px;
+        font-size: 10px;
+        line-height: 25px;
+        margin-bottom: 30px;
+        }
+}

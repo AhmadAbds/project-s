@@ -1,0 +1,351 @@
+.Projects{
+    margin: 70px 0;
+}
+.Projects h1{
+font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+margin-bottom: 22px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.Projects h2{
+width: 921px;
+margin: auto;
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.Projects .containerbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin: 65px 0 50px 0;
+}
+.Projects .containerbutton .All{
+    width: 70px;
+height: 56px;
+border-radius: 12px;
+background: rgba(248, 248, 248, 1);
+border: 0.4px solid rgba(84, 84, 84, 1);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: black;
+}
+.Projects .containerbutton .UI{
+width:  108px;
+height: 56px;
+border-radius: 12px;
+background: rgba(248, 248, 248, 1);
+border: 0.4px solid rgba(84, 84, 84, 1);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: black;
+}
+.Projects .containerbutton .Web{
+width: 190px;
+height: 56px;
+border-radius: 12px ;
+background: rgba(253, 111, 0, 1);
+color: rgba(255, 255, 255, 1);
+border: 0.4px solid rgba(84, 84, 84, 1);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.Projects .containerbutton .App{
+width: 184px;
+height: 56px;
+border-radius: 12px ;
+background: rgba(248, 248, 248, 1);
+border: 0.4px solid rgba(84, 84, 84, 1);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: black;
+}
+.Projects .containerbutton .Graghic{
+width: 234px;
+height: 56px;
+border-radius: 12px ;
+background: rgba(248, 248, 248, 1);
+border: 0.4px solid rgba(84, 84, 84, 1);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: center;   
+color: black; 
+}
+.Projects .containerprojects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.Projects .containerprojects .cardimgproject1{
+width: 400px;
+height: 489px;
+border-radius: 12px;
+position: relative;
+background: rgba(255, 235, 219, 1);
+}
+.Projects .containerprojects .cardimgproject1 .imgwp1{
+position: absolute;
+width: 274px;
+height: 489px;
+top: 0;
+left: 60%;
+transform: translate(-50%);
+}
+.Projects .containerprojects .cardimgproject1 .imgwp2{
+position: absolute;
+width: 274px;
+height: 405.54px;
+top: 87px;
+left: 40%;
+transform: translate(-50%);
+z-index: 2;
+}
+.Projects .containerprojects .Web_Design{
+font-family: Poppins;
+font-size: 19px;
+font-weight: 400;
+line-height: 28.5px;
+letter-spacing: 0.03em;
+text-align: left;
+color: rgba(253, 111, 0, 1);
+margin: 33px 0 10px 0;
+}
+.Projects .containerprojects .text_Design{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;     
+}
+@media screen  and (max-width:1307px){
+.Projects .containerprojects{
+flex-wrap: wrap;
+}
+    .Projects h1{
+font-size: 60px;
+margin-bottom: 22px;
+}
+.Projects h2{
+width: 821px;
+font-size: 20px;
+}
+}
+@media screen  and (max-width:875px){
+.Projects h1{
+margin-bottom: 20px;
+}
+.Projects h2{
+width: 721px;
+font-size: 18px;
+}
+.Projects .containerbutton{
+    gap: 10px;
+    margin: 50px 0 50px 0;
+}
+.Projects .containerbutton .All{
+width: 60px;
+height: 51px;
+font-size: 20px;
+}
+.Projects .containerbutton .UI{
+    width:  85px;
+    height: 51px;
+font-size: 20px;
+}
+.Projects .containerbutton .Web{
+    width: 147px;
+    height: 51px;
+    font-size: 20px;
+}
+.Projects .containerbutton .App{
+    width: 147px;
+    height: 51px;  
+font-size: 20px;
+}
+.Projects .containerbutton .Graghic{
+    width:  180px;
+    height:51px;
+font-size: 20px;
+}
+}
+@media screen  and (max-width:800px){
+    .Projects{
+        margin: 45px 0;
+    }
+}
+@media screen  and (max-width:725px){
+    .Projects h1{
+font-size: 50px;
+margin-bottom: 10px;
+}
+.Projects h2{
+width: 550px;
+font-size: 16px;
+}
+.Projects .containerbutton{
+    gap: 10px;
+    margin: 40px 0 45px 0;
+}
+.Projects .containerbutton .All{
+width: 45px;
+height: 45px;
+font-size: 18px;
+}
+.Projects .containerbutton .UI{
+    width:  75px;
+    height: 45px;
+font-size: 18px;
+}
+.Projects .containerbutton .Web{
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+}
+.Projects .containerbutton .App{
+    width: 130px;
+    height: 45px;  
+font-size: 18px;
+}
+.Projects .containerbutton .Graghic{
+    width:  165px;
+    height:45px;
+font-size: 18px;
+}
+}
+@media screen  and (max-width:600px){
+    .Projects .containerbutton{
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 40px 0 45px 0;
+    }
+    .Projects .containerbutton .All{
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        }
+        .Projects .containerbutton .UI{
+            width:  75px;
+            height: 45px;
+        font-size: 18px;
+        }
+        .Projects .containerbutton .Web{
+            width: 130px;
+            height: 45px;
+            font-size: 18px;
+        }
+        .Projects .containerbutton .App{
+            width: 130px;
+            height: 45px;  
+        font-size: 18px;
+        }
+        .Projects .containerbutton .Graghic{
+            width:  165px;
+            height:45px;
+        font-size: 18px;
+        }
+    .Projects h1{
+        font-size: 40px;
+        margin-bottom: 6px;
+        }
+        .Projects h2{
+        width: 420px;
+        font-size: 13px;
+        }
+}
+@media screen  and (max-width:450px){
+    .Projects{
+        margin: 25px 0;
+    }
+}
+@media screen  and (max-width:425px){
+    .Projects .containerbutton{
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 30px 0 30px 0;
+    }
+    .Projects h1{
+        font-size: 30px;
+        margin-bottom: 4px;
+        }
+        .Projects h2{
+        width: 300px;
+        font-size: 10px;
+        }
+        .Projects .containerbutton .All{
+            width: 40px;
+            height: 35px;
+            font-size: 14px;
+            }
+            .Projects .containerbutton .UI{
+                width:  60px;
+                height: 35px;
+            font-size: 14px;
+            }
+            .Projects .containerbutton .Web{
+                width: 115px;
+                height: 35px;
+                font-size: 14px;
+            }
+            .Projects .containerbutton .App{
+                width: 115px;
+                height: 35px;  
+            font-size: 14px;
+            }
+            .Projects .containerbutton .Graghic{
+                width:  150px;
+                height: 35px;
+            font-size: 14px;
+            }
+
+            .Projects .containerprojects .cardimgproject1{
+                width: 300px;
+                height: 360px;
+                }
+                .Projects .containerprojects .cardimgproject1 .imgwp1{
+                    width: 200px;
+                height: 360px;
+                top: 0;
+                left: 60%;
+                }
+                .Projects .containerprojects .cardimgproject1 .imgwp2{
+                    width: 200px;
+                height: 276px;
+                top: 87px;
+                left: 40%;
+                }
+                .Projects .containerprojects .Web_Design{
+                font-size: 18px;
+                margin: 15px 0 0 0;
+                }
+                .Projects .containerprojects .text_Design{
+                    width: max-content;
+                    font-size: 17px;
+                    line-height: 30px;
+                }
+}

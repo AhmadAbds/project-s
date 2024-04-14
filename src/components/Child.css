@@ -1,0 +1,45 @@
+.Services .containerlist .Child_list h1{
+font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.03em;
+text-align: left;
+margin: 26px 0 15px 0;
+color: black;
+}
+.Services .containerlist .Child_list .imggg{
+    height: 70px;
+}
+.Services .containerlist .Child_list{
+border-radius: 14px ;   
+background: rgba(248, 248, 248, 1);
+padding: 57px 17px 30px 21px;
+}
+.Services .containerlist .Child_list h3{
+font-family: Poppins;
+font-size: 19px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.03em;
+width: 290px;
+color: black;
+}
+@media screen  and (max-width:661px){
+.Services .containerlist .Child_list{
+padding: 50px 10px 25px 10px;
+}
+.Services .containerlist .Child_list h1{
+font-size: 28px;
+line-height: 48px;
+margin: 21px 0 10px 0;
+}
+.Services .containerlist .Child_list .imggg{
+height: 60px;
+}
+.Services .containerlist .Child_list h3{
+font-size: 14px;
+line-height: 25px;
+width: 270px;
+}
+}

@@ -1,0 +1,319 @@
+.Hero{
+display: flex;
+justify-content: space-between;
+padding: 100px 1% 0 1%;
+}
+.Hero .Text .jopp{
+margin-left:30%;
+}
+.Hero .Text h3{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.Hero .Text h2{
+font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.03em;
+text-align: left;
+color: rgba(253, 111, 0, 1);
+}
+.Hero .Text h1{
+font-family: Poppins;
+font-size: 100px;
+font-weight: 700;
+line-height: 120px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.Hero .Text div{
+width: 698px;
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.03em;
+margin-top: 28px;
+margin-bottom: 22px;    
+}
+.Hero .Text button{
+width: 188px;
+height: 52px;    
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+cursor: pointer;
+border: none;
+outline: none;
+border-radius: 5px;   
+color: rgba(255, 255, 255, 1);
+background:rgba(253, 111, 0, 1);
+}
+.Hero .profile .Cardimg{
+position: relative;
+width: 538px;
+height: 550px;
+}
+.Hero .profile .Cardimg .Rectangle{
+position: absolute;
+transform: translate(-50% , -50%);
+left: 50%;
+top: 20%;
+z-index: 2;
+}
+@media screen  and (max-width:1262px){
+    .Hero .Text h3{
+        font-size: 22px;
+        }
+        .Hero .Text h2{
+        font-size: 27px;
+        }
+        .Hero .Text h1{
+        font-size: 80px;
+        }
+        .Hero .Text div{
+            width: 560px;
+            font-size: 16px;
+            margin-top: 22px;
+            margin-bottom: 18px;
+        }
+        .Hero{
+            padding: 90px 1% 0 1%;
+        }
+}
+@media screen  and (max-width:1132px){
+        .Hero .Text h1{
+        font-size: 65px;
+        line-height: 80px;
+        }
+        .Hero .Text div{
+            width: 450px;
+            font-size: 14px;
+        }
+        .Hero .Text .jopp{
+            margin-left : 25%;
+        }
+        .Hero .profile .Cardimg{
+            width: 500px;
+        height: 460px;
+        }
+        .Hero{
+            padding: 80px 1% 0 1%;
+        }
+}
+@media screen  and (max-width:1012px){
+    .Hero .Text h3{
+        font-size: 20px;
+        }
+        .Hero .Text h2{
+        font-size: 25px;
+        }
+        .Hero .Text h1{
+        font-size: 55px;
+        line-height: 70px;
+        }
+        .Hero .Text div{
+            width: 400px;
+            font-size: 14px;
+            margin-top: 12px;
+            margin-bottom: 14px;
+        }
+        .Hero .Text .jopp{
+            margin-left : 17%;
+        }
+        .Hero .Text button{
+            width: 160px;
+            height: 40px;    
+            font-size: 19px;
+            }
+            .Hero .profile .Cardimg{
+                width: 450px;
+            height: 400px;
+            }
+            .Hero .profile .Cardimg .Rectangle{
+                width: 70%;
+                height: 75%;
+            }
+            .Hero{
+                padding: 70px 1% 0 1%;
+            }
+}
+
+@media screen  and (max-width:870px){
+    .Hero .Text h3{
+        font-size: 19px;
+        line-height: 26px;
+        }
+        .Hero .Text h2{
+        font-size: 21px;
+        line-height: 38px;
+        }
+        .Hero .Text h1{
+        font-size: 50px;
+        line-height: 55px;
+        }
+        .Hero .Text div{
+            line-height: 25px;
+            width: 330px;
+            font-size: 13px;
+        }
+        .Hero .Text .jopp{
+            margin-left : 10%;
+        }
+        .Hero .Text button{
+            width: 140px;    
+            font-size: 17px;
+            }
+            .Hero .profile .Cardimg{
+                width: 350px;
+            height: 350px;
+            }
+            .Hero .profile .Cardimg .Rectangle{
+                width: 65%;
+                height: 70%;
+            }
+}
+@media screen  and (max-width:760px){
+        .Hero .Text h1{
+        font-size: 40px;
+        line-height: 50px;
+        }
+        .Hero .Text div{
+            line-height: 25px;
+            width: 290px;
+            font-size: 10px;
+        }
+        .Hero .Text button{
+            width: 120px;    
+            font-size: 15px;
+            }
+            .Hero .profile .Cardimg{
+                width: 320px;
+            height: 310px;
+            }
+            .Hero .profile .Cardimg .Rectangle{
+                width: 55%;
+                height: 60%;
+            }
+}
+@media screen  and (max-width:671px){
+.Hero .Text h3{
+font-size: 14px;
+line-height: 20px;
+}
+.Hero .Text h2{
+font-size: 16px;
+line-height: 30px;
+}
+.Hero .Text h1{
+font-size: 35px;
+line-height: 40px;
+}
+.Hero .Text div{
+    width: 240px;
+font-size: 9px;
+line-height: 20px;    
+}
+.Hero .Text button{
+width: 100px;    
+font-size: 13px;
+}
+.Hero .profile .Cardimg{
+    width: 260px; 
+    height: 290px;
+}
+}
+
+@media screen  and (max-width:512px){
+    .Hero .Text h3{
+        font-size: 13px;
+        line-height: 17px;
+        }
+        .Hero .Text h2{
+        font-size: 14px;
+        line-height: 26px;
+        }
+        .Hero .Text h1{
+        font-size: 30px;
+        line-height: 35px;
+        }
+        .Hero .Text div{
+            width: 220px;
+        font-size: 8px;
+        line-height: 15px;
+        margin-top: 10px;
+        margin-bottom: 13px;
+        }
+        .Hero .Text button{
+        width: 90px;    
+        font-size: 12px;
+        height: 36px;
+        }
+        .Hero .profile .Cardimg{
+            width: 200px; 
+            height: 220px;
+        }
+}
+@media screen  and (max-width:432px){
+    .Hero .Text h3{
+        font-size: 12px;
+        line-height: 15px;
+        }
+        .Hero .Text h2{
+        font-size: 14px;
+        line-height: 25px;
+        }
+        .Hero .Text h1{
+        font-size: 27px;
+        line-height: 30px;
+        }
+        .Hero .Text div{
+            width: 180px;
+        font-size: 6px;
+        line-height: 15px;
+        margin-top: 7px;
+        margin-bottom: 8px;
+        }
+        .Hero .Text button{
+        width: 75px;    
+        font-size: 10px;
+        height: 32px;
+        }
+        .Hero .profile .Cardimg{
+            width: 170px; 
+            height: 200px;
+        }
+}
+@media screen  and (max-width:358px){
+    .Hero .Text h3{
+        font-size: 10px;
+        line-height: 11px;
+        }
+        .Hero .Text h2{
+        font-size: 12px;
+        line-height: 21px;
+        }
+        .Hero .Text h1{
+        font-size: 24px;
+        line-height: 25px;
+        }
+        .Hero .Text div{
+            width: 150px;
+        font-size: 6px;
+        line-height: 11px;
+        }
+        .Hero .Text button{
+        width: 70px;    
+        font-size: 10px;
+        height: 28px;
+        }
+        .Hero .profile .Cardimg{
+            width: 140px; 
+            height: 175px;
+        }
+}

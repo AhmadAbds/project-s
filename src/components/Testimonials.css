@@ -1,0 +1,327 @@
+.Testimonials{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    transition: 1s all;
+    margin: 70px 0;
+}
+.Testimonials h1{
+    font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+line-height: 97.5px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+.Testimonials h2{
+    font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: 0.03em;
+text-align: center;
+width: 932px;
+margin: auto;
+}
+.SLIDER{
+    margin: 87px 0 87px 0;
+}
+.containerslider{
+    margin: auto;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    width: 1078px;
+}
+.Testimonials .cardslider{
+    padding: 55px 77px 55px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    background: rgba(248, 248, 248, 1);
+    border-radius: 14px;
+    width: 1087px;
+    margin: 0 auto;
+}
+
+.buttonslide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.buttonslide button{
+    width: 57px;
+height: 16px;
+border-radius: 8px ;
+outline: none;
+border: none;
+background: rgba(217, 217, 217, 1);
+cursor: pointer;
+}
+
+.buttonslide button:active{
+    background-color: rgba(253, 111, 0, 1);
+}
+.buttonslide button:hover{
+    background-color: rgba(253, 111, 0, 1);
+}
+
+.Testimonials .cardslider .textslider .textlorem{
+width: 698px;
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: 0.02em;
+color: black;
+}
+.Testimonials .cardslider .textslider .textlorem .Mark1{
+width: 18px;
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.02em;
+text-align: justified;
+color: rgba(253, 111, 0, 1);
+}
+.Testimonials .cardslider .textslider .textlorem .Mark2{
+    width: 18px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: justified;
+    color: rgba(253, 111, 0, 1);
+}
+.Testimonials .cardslider .textslider .Name{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0.02em;
+text-align: justified;
+color: black;
+}
+.Testimonials .cardslider .textslider .CEO{
+font-family: Poppins;
+font-size: 19px;
+font-weight: 400;
+line-height: 28.5px;
+letter-spacing: 0.02em;
+text-align: justified;
+color: black;
+}
+@media screen  and (max-width:1110px){
+    .Testimonials h1{
+    font-size: 61px;
+    line-height: 97.5px;
+    }
+    .Testimonials h2{
+    font-size: 19px;
+    line-height: 31.5px;
+    width: 800px;
+    }
+    .SLIDER{
+        margin: 87px 0 87px 0;
+    }
+    .containerslider{
+        width: 850px;
+    }
+    .Testimonials .cardslider{
+        padding: 45px 50px 45px 28px;
+        width: 850px;
+    }
+    .imgcardslider{
+        width: 210px;
+        height: 210px;
+    }
+    .Testimonials .cardslider .textslider .textlorem{
+        width: 560px;
+        font-size: 18px;
+        line-height: 31.5px;
+        }
+       
+        .Testimonials .cardslider .textslider .Name{
+        font-size: 21px;
+        line-height: 36px;
+        }
+        .Testimonials .cardslider .textslider .CEO{
+        font-size: 16px;
+        line-height: 28.5px;
+        }
+}
+
+
+@media screen  and (max-width:860px){
+    .imgcardslider{
+        width: 180px;
+        height: 180px;
+    }
+    .Testimonials .cardslider .textslider .textlorem{
+        width: 350px;
+        font-size: 14px;
+        line-height: 26px;
+        }
+        .Testimonials .cardslider .textslider .Name{
+            font-size: 18px;
+            line-height: 36px;
+            }
+            .Testimonials .cardslider .textslider .CEO{
+            font-size: 13px;
+            line-height: 28.5px;
+            }
+            .containerslider{
+                width: 600px;
+            }
+            .Testimonials .cardslider{
+                padding: 25px 40px 25px 28px;
+                width: 600px;
+            }
+            .Testimonials .cardslider .textslider .textlorem .Mark1{
+                width: 18px;
+            height: 48px;
+            font-size: 28px;
+            line-height: 48px;
+            }
+            .Testimonials .cardslider .textslider .textlorem .Mark2{
+                width: 18px;
+                height: 48px;
+                font-size: 28px;
+            }
+            .Testimonials h1{
+                font-size: 55px;
+                line-height: 97.5px;
+                }
+                .Testimonials h2{
+                font-size: 17px;
+                line-height: 31.5px;
+                width: 600px;
+                }
+                .SLIDER{
+                    margin: 67px 0 67px 0;
+                }
+}
+@media screen  and (max-width:800px){
+    .Testimonials{
+        margin: 45px 0;
+    }
+}
+@media screen  and (max-width:608px){
+    .imgcardslider{
+        width: 100px;
+        height: 100px;
+    }
+    .Testimonials .cardslider .textslider .textlorem{
+        width: 200px;
+        font-size: 10px;
+        line-height: 16px;
+        }
+        .Testimonials .cardslider .textslider .Name{
+            font-size: 11px;
+            line-height: 22px;
+            }
+            .Testimonials .cardslider .textslider .CEO{
+            font-size: 9px;
+            line-height: 15px;
+            }
+            .containerslider{
+                width: 360px;
+            }
+            .Testimonials .cardslider{
+                padding: 15px 30px 15px 18px;
+                width: 360px;
+            }
+            .Testimonials .cardslider .textslider .textlorem .Mark1{
+                width: 18px;
+            height: 48px;
+            font-size: 15px;
+            line-height: 18px;
+            }
+            .Testimonials .cardslider .textslider .textlorem .Mark2{
+                width: 8px;
+                height: 8px;
+                font-size: 15px;
+                line-height: 0px;
+            }
+            .Testimonials h1{
+                font-size: 35px;
+                line-height: 77.5px;
+                }
+                .Testimonials h2{
+                font-size: 14px;
+                line-height: 31.5px;
+                width: 400px;
+                }
+                .SLIDER{
+                    margin: 42px 0 42px 0;
+                }
+                .buttonslide button{
+                    width: 40px;
+                height: 12px;
+                }
+}
+
+@media screen  and (max-width:450px){
+    .Testimonials{
+        margin: 25px 0;
+    }
+}
+
+@media screen  and (max-width:420px){
+    .imgcardslider{
+        width: 80px;
+        height: 80px;
+    }
+    .Testimonials .cardslider .textslider .textlorem{
+        width: 150px;
+        font-size: 7px;
+        line-height: 12px;
+        }
+        .Testimonials .cardslider .textslider .Name{
+            font-size: 10px;
+            line-height: 18px;
+            }
+            .Testimonials .cardslider .textslider .CEO{
+            font-size: 7px;
+            line-height: 11px;
+            }
+            .containerslider{
+                width: 280px;
+            }
+            .Testimonials .cardslider{
+                padding: 12px 15px 12px 5px;
+                width: 280px;
+            }
+            .Testimonials .cardslider .textslider .textlorem .Mark1{
+                width: 18px;
+            height: 48px;
+            font-size: 10px;
+            line-height: 8px;
+            }
+            .Testimonials .cardslider .textslider .textlorem .Mark2{
+                width: 8px;
+                height: 8px;
+                font-size: 10px;
+                line-height: 0px;
+            }
+            .Testimonials h1{
+                font-size: 25px;
+                line-height: 57.5px;
+                }
+                .Testimonials h2{
+                font-size: 11px;
+                line-height: 18px;
+                width: 300px;
+                }
+                .SLIDER{
+                    margin: 32px 0 32px 0;
+                }
+                .buttonslide button{
+                    width: 30px;
+                height: 10px;
+                }
+}

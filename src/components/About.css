@@ -1,0 +1,299 @@
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+    margin:70px 0;
+}
+.About .AboutText .lorem{
+    width: 750px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    font-family: Poppins;
+    letter-spacing: 0.03em;
+    margin-bottom: 15px;
+}
+.About .profile_About .Cardimg_About{
+    position: relative;
+    width: 538px;
+    height: 617.24px;
+}
+
+.About .profile_About .Cardimg_About .Rectangle_About{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 25%;
+    z-index: 2;
+}
+.About .AboutText .textrange{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.About .AboutText h1{
+font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+line-height: 98px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.About .AboutText input{
+width: 753px;
+height: 12px;
+border-radius: 6px ;
+outline: none;
+border: none;
+margin: 8px 0;
+accent-color:rgba(253, 111, 0, 1);
+}
+@media screen  and (max-width:1319px){
+    .About .AboutText .lorem{
+        width: 570px;
+        font-size: 16px;
+        line-height: 31.5px;
+    }
+    .About .AboutText input{
+        width: 570px;
+        }
+    .About .AboutText h1{
+    font-size: 55px;
+    line-height: 88px;
+    }
+    
+}
+@media screen  and (max-width:1132px){
+        .About .profile_About .Cardimg_About{
+        width: 500px;
+        height: 460px;
+        }
+        .About .AboutText .lorem{
+            width: 464px;
+            font-size: 13px;
+            line-height: 30px;
+        }
+        .About .AboutText input{
+            width: 464px;
+            }
+        .About .AboutText h1{
+        font-size: 50px;
+        line-height: 80px;
+        }
+        .About .AboutText .textrange{
+        font-size: 20px;
+        line-height: 36px;
+        }
+        
+}
+@media screen  and (max-width:1012px){
+            .About .profile_About .Cardimg_About{
+            width: 450px;
+            height: 400px;
+            }
+            .About .profile_About .Cardimg_About .Rectangle_About{
+                width: 70%;
+                height: 75%;
+            }
+            .About .AboutText .lorem{
+                width: 400px;
+                font-size: 13px;
+                line-height: 30px;
+            }
+            .About .AboutText input{
+                width: 400px;
+                }
+            .About .AboutText h1{
+            line-height: 70px;
+            }
+            .About .AboutText .textrange{
+                font-size: 20px;
+                line-height: 26px;
+                }
+            
+}
+
+@media screen  and (max-width:870px){
+            .About .profile_About .Cardimg_About{
+                width: 350px;
+            height: 350px;
+            }
+            .About .profile_About .Cardimg_About .Rectangle_About{
+                width: 65%;
+                height: 70%;
+            }
+            .About .AboutText .lorem{
+                width: 390px;
+                margin-bottom: 10px;
+            }
+            .About .AboutText input{
+                width: 390px;
+                }
+            .About .AboutText h1{
+            font-size: 45px;
+            line-height: 65px;
+            }
+            .About .AboutText .textrange{
+            font-size: 17px;
+            line-height: 20px;
+            }
+}
+@media screen  and (max-width:800px){
+    .About{
+        margin: 45px 0;
+    }
+}
+@media screen  and (max-width:760px){
+            .About .profile_About .Cardimg_About{
+                width: 320px;
+            height: 310px;
+            }
+            .About .profile_About .Cardimg_About .Rectangle_About{
+                width: 55%;
+                height: 60%;
+            }
+            .About .AboutText h1{
+                font-size: 40px;
+                line-height: 55px;
+                }
+                .About .AboutText .textrange{
+                    font-size: 16px;
+                    line-height: 15px;
+                    }
+                .About .AboutText .lorem{
+                    margin-bottom: 7px;
+                }
+
+}
+@media screen  and (max-width:725px){
+    .About .AboutText .lorem{
+       width: 330px;
+       font-size: 10px;
+       line-height: 25px;
+    }
+    .About .AboutText input{
+       width: 330px;
+       height: 9px;
+        }
+        .About .AboutText .textrange{
+            font-size: 15px;
+            }
+}
+
+@media screen  and (max-width:671px){
+.About .profile_About .Cardimg_About{
+    width: 260px; 
+    height: 290px;
+}
+.About .AboutText input{
+    height: 6px;
+     }
+     .About .AboutText h1{
+        font-size: 35px;
+        line-height: 50px;
+        }
+        .About .AboutText .lorem{
+            line-height: 20px;
+         }
+}
+@media screen  and (max-width:603px){
+    .About .AboutText input{
+        width: 240px;
+        height: 5px;
+         }
+         .About .AboutText h1{
+            font-size: 25px;
+            line-height: 40px;
+            }
+            .About .AboutText .lorem{
+            width: 240px;
+            font-size: 8px;
+            line-height: 18px;
+             }
+             .About .AboutText .textrange{
+                font-size: 13px;
+                    line-height: 12px;
+                }
+    }
+
+@media screen  and (max-width:512px){
+        .About .profile_About .Cardimg_About{
+            width: 200px; 
+            height: 220px;
+        }
+        .About .AboutText h1{
+            font-size: 22px;
+            line-height: 35px;
+            }
+            .About .AboutText .lorem{
+                width: 205px;
+                font-size: 8px;
+                line-height: 15px;
+            }
+                 .About .AboutText input{
+                    width: 205px;
+                    height: 4px;
+                     }
+                     .About .AboutText .textrange{
+                        font-size: 11px;
+                        line-height: 5px;
+                        }
+}
+@media screen  and (max-width:450px){
+    .About{
+        margin: 25px 0;
+    }
+}
+@media screen  and (max-width:432px){ 
+        .About .profile_About .Cardimg_About{
+            width: 170px; 
+            height: 200px;
+        }
+}
+@media screen  and (max-width:385px){ 
+    .About .AboutText h1{
+        font-size: 19px;
+        line-height: 30px;
+        }
+        .About .AboutText .lorem{
+            width: 170px;
+            font-size: 6px;
+            line-height: 11px;
+        }
+             .About .AboutText input{
+                width: 170px;
+                height: 4px;
+                 }
+                 .About .AboutText .textrange{
+                    font-size: 11px;
+                    line-height: 5px;
+                    }
+}
+@media screen  and (max-width:358px){
+        .About .profile_About .Cardimg_About{
+            width: 140px; 
+            height: 175px;
+        }
+        .About .AboutText h1{
+            font-size: 19px;
+            line-height: 27px;
+            }
+            .About .AboutText .lorem{
+                width: 150px;
+                font-size: 5px;
+                line-height: 10px;
+            }
+                 .About .AboutText input{
+                    width: 150px;
+                    height: 3px;
+                     }
+                     .About .AboutText .textrange{
+                        font-size: 9px;
+                        line-height: 0;
+                        }
+}

@@ -1,0 +1,13 @@
+.Services .containerlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin: auto;
+}
+@media screen  and (max-width:1333px){
+    .Services .containerlist{
+        flex-wrap: wrap;
+    }
+}

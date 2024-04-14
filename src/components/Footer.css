@@ -1,0 +1,152 @@
+.Footer{
+    display: grid;
+    gap: 65px;
+    margin-top: 70px;
+}
+
+.Footer .list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.Footer .logo{
+    color: rgba(255, 255, 255, 1);
+background:rgba(253, 111, 0, 1);
+height: 67px;
+width: 67px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-family: "Permanent Marker", cursive;
+font-size: 24px;
+font-weight: 400;
+}
+.Footer .containerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Footer .logotext{
+font-family: Montserrat;
+font-size: 48px;
+font-weight: 400;
+line-height: 59px;
+}
+.Footer ul{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+.Footer ul li{
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.03em;
+text-align: left;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+.Footer .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 15px;
+    height: 10px;
+}
+.Footer .endfooter{
+    width: 100%;
+height: 84px;
+top: 494px;
+left: 740px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: 0.03em;
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+margin: auto;
+background: rgba(84, 84, 84, 1);
+color: white;
+}
+.Footer .imagesfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  10%;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+@media screen  and (max-width:1325px) {
+.Footer .logotext{
+font-size: 38px;
+}
+}
+@media screen  and (max-width:1102px) {
+.Footer .logotext{
+font-size: 28px;
+}
+.Footer .logo{
+height:57px;
+width: 57px;
+font-size: 24px;
+}
+.Footer ul li{font-size: 19px;}
+}
+@media screen  and (max-width:930px){
+.Footer .containerlogo{
+gap: 15px;
+}
+}
+@media screen  and (max-width:800px){
+.Footer{gap: 50px;margin-top: 45px;}
+.Footer ul{gap: 30px;}
+}
+@media screen  and (max-width:700px){
+.Footer{gap: 40px;}
+.Footer ul{gap: 20px; flex-wrap: wrap;}
+.Footer ul li{font-size: 18px;}
+.Footer .endfooter{font-size: 19px;}
+.Footer .logo{height: 57px; width: 57px;}
+.Footer .logotext{font-size: 40px;}
+}
+@media screen  and (max-width:460px){
+.Footer .logotext{
+font-size: 21px;
+}
+.Footer .logo{
+height:35px;
+width: 35px;
+font-size: 16px;
+}
+nav .containerlogo{gap: 7px;}
+.Footer{gap: 20px;}
+.Footer ul{gap: 10px;}
+.Footer ul li{font-size: 13px;}
+.Footer .endfooter{font-size: 14px;}
+}
+@media screen  and (max-width:450px){
+.Footer{margin-top: 25px;}
+}
+@media screen  and (max-width:377px){
+    .Footer .imagesfooter img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+   
+   
+  
